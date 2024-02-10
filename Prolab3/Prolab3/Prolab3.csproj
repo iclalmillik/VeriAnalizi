@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="twitter_data.json\**" />
+    <EmbeddedResource Remove="twitter_data.json\**" />
+    <None Remove="twitter_data.json\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="MyListConverter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Msagl" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Msagl.Drawing" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Msagl.GraphViewerGDI" Version="1.1.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

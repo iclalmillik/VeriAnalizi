@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nvj+zEubeaKeiXrq3KnxVJmSi6n0ljsX2pyBH7z8cWDSIyxAtUSvStwAPey9ByRm30zLIp/aKsonQtum2aO5vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eyup1\\source\\repos\\Prolab3\\Prolab3\\Prolab3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eyup1\\.nuget\\packages\\microsoft.msagl\\1.1.6\\microsoft.msagl.1.1.6.nupkg.sha512",
+    "C:\\Users\\eyup1\\.nuget\\packages\\microsoft.msagl.drawing\\1.1.6\\microsoft.msagl.drawing.1.1.6.nupkg.sha512",
+    "C:\\Users\\eyup1\\.nuget\\packages\\microsoft.msagl.graphviewergdi\\1.1.7\\microsoft.msagl.graphviewergdi.1.1.7.nupkg.sha512",
+    "C:\\Users\\eyup1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
